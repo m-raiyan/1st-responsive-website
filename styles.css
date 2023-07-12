@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
+
     }
 #header {
     height: 100vh;
@@ -30,4 +32,44 @@ h1 {
     display: inline-block;
     background: #f67c92;
     margin: 15px 0;
+    
+}
+.common-btn {
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    cursor: pointer;
+}
+p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #777 ;
+}
+.header-text button {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+/* setting up width and height this way to create like line */
+.line1 {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+}
+.line2 {
+    height: 2px;
+    width: 80px;
+    display: inline-block;
+    background: #f67c92;
+}
+.line3 {
+    height: 1.8px;
+    width: 60px;
+    display: inline-block;
+    background: #f67c92;
+}
+.line {
+    /* to reduce space from the lines */
+    line-height: 8px;
 }
